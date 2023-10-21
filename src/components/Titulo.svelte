@@ -1,0 +1,20 @@
+<script lang="ts">
+    export let titulo: string;
+</script>
+<h1 class="titulo">{titulo}</h1>
+
+<style>
+    .titulo {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 800;
+      font-size: 2.375rem;
+      line-height: 2.813rem;
+  
+      color: #3680f4;
+      background-image: linear-gradient(to left, #3680f4, #c14fac);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+</style>
